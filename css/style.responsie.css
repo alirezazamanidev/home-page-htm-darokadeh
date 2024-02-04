@@ -1,0 +1,89 @@
+
+@media (min-width:686px) {
+    .container{
+        max-width: 800px;
+    }
+    .hero-slides .single-hero-slide{
+        height: 200px;
+    }
+    
+    
+}
+@media (min-width:992px) {
+    .container{
+        max-width: 1000px;
+    }
+    .hero-slides .single-hero-slide{
+        height: 200px;
+    }
+    
+    
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1600px;
+    }
+  
+    .header-area{
+        height: 60px;
+    }
+    .page-content-wrapper {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .page-content-wrapper .search-form form  {
+        display: flex;
+        align-content: center;
+    }
+    .page-content-wrapper .search-form input {
+      padding-top: 20px;
+      padding-bottom: 20px;
+        
+    }
+   
+    .page-content-wrapper .search-form input::placeholder {
+        font-size: 1.1rem;
+          
+      }
+    .hero-slides .single-hero-slide{
+        height: 400px;
+    }
+    .single-hero-slide .slide-content p {
+        font-size: 2rem;
+        color: red;
+      }
+      .slide-content .slide-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .slide-content .slide-text p {
+        font-size: 1.5rem;
+        font-weight:bold;
+      }
+      .slide-content .slide-text h4 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .slide-content .slide-text a {
+        padding: 1rem 2rem;
+      }
+      .top-products-area h6 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+      .flash-sale-wrapper h6{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        font-weight: 600;
+        
+      }
+      .featured-products-wrapper h6 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+}
