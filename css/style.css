@@ -338,7 +338,21 @@ textarea:invalid {
 .text-dark {
   color: #020310 !important;
 }
-
+.flash-sale-wrapper{
+  background-color: #ef3a4f;
+  border-radius: 15px;
+  padding: 30px;
+}
+.flash-sale-wrapper .sction-headineg h6 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.flash-sale-wrapper .sction-headineg h6 i {
+  color: #ffffff;
+  margin-left: 5px;
+  
+}
 .section-heading {
   margin-bottom: 1rem;
   line-height: 1;
@@ -1303,7 +1317,7 @@ textarea:invalid {
   text-align: center;
   text-transform: capitalize;
   line-height: 1;
-  color: #000;
+  color: #424750;
   z-index: 1;
 }
 .suha-footer-nav ul li a i {
@@ -1312,7 +1326,7 @@ textarea:invalid {
   margin-bottom: 4px;
 }
 .suha-footer-nav ul li a:hover, .suha-footer-nav ul li a:focus {
-  color: #ffffff;
+  color: #252931;
 }
 .suha-footer-nav ul li a img {
   max-height: 1.5rem;
@@ -4741,6 +4755,13 @@ li.suha-dropdown-menu .dropdown-trigger-btn.active i {
 [theme-color=dark] .pay-credit-card-form .form-control {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+[theme-color=dark] .footer-nav-area {
+  background-color: #0c153b;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+[theme-color=dark] .footer-nav-area .suha-footer-nav li a {
+  color: #b5b5b5;
 }
 [theme-color=dark] .otp-form input.form-control {
   background-color: rgba(255, 255, 255, 0.25);

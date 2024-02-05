@@ -1,4 +1,12 @@
 
+@media (min-width:580px) {
+  .container{
+
+      max-width: 950px;
+  }
+ 
+  
+}
 @media (min-width:686px) {
     .container{
         max-width: 800px;
@@ -15,6 +23,9 @@
     }
     .hero-slides .single-hero-slide{
         height: 200px;
+    }
+    .flash-sale-wrapper .sction-headineg h6{
+      font-size: 1.8rem;
     }
     
     
