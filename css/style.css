@@ -416,7 +416,7 @@ textarea:invalid {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/img/bg-img/dark-bg.jpg");
+  background-image: url('./dark-bg.jpg');
   background-position: center center;
   top: 0;
   opacity: 0.3;
@@ -845,6 +845,7 @@ textarea:invalid {
 .border-top.margin-100,
 .tablet-wrap {
   margin-top: 80px;
+  
 }
 
 .ipad-frame-wrap {
@@ -1245,7 +1246,7 @@ textarea:invalid {
   bottom: 0;
   -webkit-box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
-  background-color:#0f2bd1;
+  background-color:#f0f0f1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1302,7 +1303,7 @@ textarea:invalid {
   text-align: center;
   text-transform: capitalize;
   line-height: 1;
-  color: #ffffff;
+  color: #000;
   z-index: 1;
 }
 .suha-footer-nav ul li a i {
